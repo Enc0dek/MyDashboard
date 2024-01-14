@@ -1,0 +1,14 @@
+{
+  "name": "mydashboard",
+  "version": "1.0.0",
+  "description": "A help to me for learn someting new",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ec0dek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

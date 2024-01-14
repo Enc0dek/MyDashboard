@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Main page</title>
+</head>
+<body>
+    <div class="root" id="root">
+        <div class="navbar">
+            
+            <nav>
+                <ul>
+                    <li> <a href="..."> Analytics </a> </li>
+                    <li> <a href="..."> Profile </a> </li>
+                    <li> <a href="..."> Config </a> </li>
+                </ul>
+            </nav>
+            <div class="Profile-Container">
+                <a href="https://github.com/Enc0dek">
+                    <img src="https://avatars.githubusercontent.com/u/87038378?v=4" alt="EKO-IMG" > 
+                </a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="lang">
+                <h1> Roll!!! </h1>
+            </div>
+            <button> Spin </button>
+        </div>
+    </div>
+    <script>
+        var gradient = 0;
+
+        function grad() {
+            if (gradient >= 365) {
+                gradient = 0;
+            } else {
+                gradient ++;
+            }
+            document.body.style.background = `linear-gradient(${gradient}deg, rgba(175,0,163,1) 0%, rgba(134,0,238,1) 100%) fixed`;
+        }
+
+        setInterval(grad, 30);
+
+    </script>
+</body>
+</html>
