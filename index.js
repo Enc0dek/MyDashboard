@@ -9,6 +9,10 @@ app.get("/", (req, res)=>{
     res.sendFile(__dirname + "./public/index.html")
 })
 
+app.get("/config", (req,res) => {
+    res.sendFile(__dirname + "/public/config.html")
+})
+
 app.listen(3000, ()=>{
     console.log("http://localhost:3000")
 })
